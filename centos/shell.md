@@ -2,10 +2,14 @@
 ```
 $ gedit ex01.sh     
 ```
+
+<pre>
+
 '''''''''ex01.sh'''''''''     
--#!/bin/sh   
+ #!/bin/sh   
 echo "me home:" $HOME  
 '''''''''ex01.sh''''''''' 
+</pre>
 
 ```
 $ sh ex01.sh (쉘로 실행하기)      
@@ -19,18 +23,23 @@ me home: /home/user1
 $ gedit ex01.sh
 ```
 
+<pre>
+
 '''''''''ex01.sh'''''''''     
--#!/bin/sh   
+ #!/bin/sh   
 echo "me home:" $HOME  
 exit 1  
 '''''''''ex01.sh''''''''' 
+</pre>
 
 ```
 $ ./ex01.sh > result.txt 1> result2.txt
 ```
 
 출력 방향을 바꾸는데 예외가 발생하면 exit 번호에 따라 출력을 바꿈
+<pre>
 
 '''''''''result2.txt'''''''''   
 me home: /home/user1   
 '''''''''result2.txt'''''''''
+</pre>
