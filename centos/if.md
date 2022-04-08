@@ -7,16 +7,20 @@ if [ 1 ] : true
 $ gedit ex06.sh
 ```
 
-'''''''''ex06.sh'''''''''   
-echo "start..."
+<pre> 
+
+'''''''''ex06.sh'''''''''
+ #!/bin/sh 
+echo "start..."   
 if [ 1 ]
 
-then
-echo "result:true"
+then   
+	echo "result:true"   
 
-fi
+fi   
 echo "end..."  
 '''''''''ex06.sh'''''''''
+</pre>
 
 ```
 $ sh ex06.sh
