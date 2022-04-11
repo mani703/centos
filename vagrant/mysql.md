@@ -2,6 +2,7 @@
 
 ```
 # mysql 설치
+$ vagrant ssh (접속)
 $ sudo dnf search mysql
 $ sudo dnf install mysql-server .x86_64 -y
 $ sudo systemctl start mysqld
