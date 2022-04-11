@@ -53,7 +53,7 @@ mysql> INSERT INTO `test01`.`test_table02` (`num`, `name`) VALUES ('1111', 'aaa'
 <pre>
 
 oracle
-	./oracle		(설치파일)
+	./oracle	(설치파일)
 	sqlplus		(실행파일)
 	
 mysql & maraiDB
